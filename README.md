@@ -207,7 +207,7 @@ This confirms the API is live and containers are running correctly.
 
 This project emphasizes **real-world DevOps practices** such as container orchestration, cloud deployment, and CI/CD automation over application complexity.
 
-## Project Reference
+---
 
 This Project follows the requirement defined by 
 <a href="https://roadmap.sh/projects/multi-container-service" >roadmap.sh</a>
