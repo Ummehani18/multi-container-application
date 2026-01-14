@@ -4,7 +4,7 @@ A production-style multi-container backend application deployed on AWS EC2 using
 
 This project focuses on **containerization, cloud deployment, and deployment automation**, rather than application complexity.
 
----
+
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ This project focuses on **containerization, cloud deployment, and deployment aut
 * Security Considerations
 * Future Enhancements
 
----
+
 
 ## Overview
 
@@ -36,7 +36,7 @@ The application consists of:
 
 The API functionality is intentionally simple to keep the focus on **DevOps practices and infrastructure workflows**.
 
----
+
 
 ## Architecture
 
@@ -56,7 +56,7 @@ MongoDB (Docker Container)
 * API is exposed publicly via EC2 security groups
 * Deployment is automated via GitHub Actions
 
----
+
 
 ## Tech Stack
 
@@ -67,7 +67,7 @@ MongoDB (Docker Container)
 * **CI/CD**: GitHub Actions
 * **OS**: Ubuntu Linux
 
----
+
 
 ## Features
 
@@ -78,7 +78,7 @@ MongoDB (Docker Container)
 * Automated CI/CD pipeline triggered on GitHub push
 * Zero manual deployment after CI/CD setup
 
----
+
 
 ## Project Structure
 
@@ -95,7 +95,7 @@ multi-container-application/
         └── deploy.yml
 ```
 
----
+
 
 ## Local Setup
 
@@ -116,7 +116,7 @@ API will be available at:
 http://localhost:3000
 ```
 
----
+
 
 ## Cloud Deployment (AWS EC2)
 
@@ -137,7 +137,7 @@ API will be accessible via:
 http://<EC2_PUBLIC_IP>:3000
 ```
 
----
+
 
 ## CI/CD Pipeline
 
@@ -156,7 +156,7 @@ This project uses **GitHub Actions** to automate deployment.
 * Push-to-deploy workflow
 * Consistent and repeatable deployments
 
----
+
 
 ## Verification
 
@@ -174,7 +174,7 @@ Expected response:
 
 This confirms the API is live and containers are running correctly.
 
----
+
 
 ## Security Considerations
 
@@ -183,7 +183,7 @@ This confirms the API is live and containers are running correctly.
 * GitHub Secrets used for sensitive credentials
 * Database container is not exposed publicly
 
----
+
 
 ## Future Enhancements
 
@@ -193,11 +193,12 @@ This confirms the API is live and containers are running correctly.
 * Centralized logging and monitoring
 * Health checks and container restart policies
 
----
+
 
 ## Project Type
 
 **Category**: DevOps / Cloud / CI/CD
+
 **Focus**: Deployment automation and infrastructure workflows
 
 ---
